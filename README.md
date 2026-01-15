@@ -5,3 +5,6 @@
 - install shadcn
 - create feature/ inside app
 - and add this file inside tailwind.config.ts file
+
+- add shadcn components
+

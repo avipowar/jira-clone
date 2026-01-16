@@ -1,13 +1,17 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { TestComponent } from "@/features/test";
 
 export default function Home() {
   return (
-    <div>
-      <h1>hello i am avinash</h1>
-      <Button>click me</Button>
-      <TestComponent />
+    <div className="">
+      <input type="text" />
+      <Button variant="primary">Primary</Button>
+      <Button variant="secondary">secondary</Button>
+      <Button variant="destructive">destructive</Button>
+      <Button variant="ghost">ghost</Button>
+      <Button variant="muted">muted</Button>
+      <Button variant="outline">outline</Button>
+      <Button variant="tertiary">outline</Button>
     </div>
   );
 }
